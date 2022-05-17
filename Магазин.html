@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            flex-wrap: wrap;
+            text-decoration: none;
+            color: black;
+        }
+        .header {
+            max-width: 1200px;
+            margin: auto;
+            font-family: sans-serif;
+        }
+        .cont {
+            background-image: url(Главный\ фон.jpeg);
+            margin: auto;
+            height: 650px;
+            flex-wrap: wrap;
+            font-family: Verdana, Tahoma, sans-serif;
+            display: flex;
+        }
+        .me {
+            width: 1200px;
+            margin: auto;
+            background-color: rgb(78, 78, 78, 0.397);
+            display: flex;
+            position: fixed;
+            justify-content: right;
+        }
+        .me .logo {
+            justify-content: start;
+        }
+        .logo {
+            background-image: url(Логотип.png);
+            background-size: cover;
+            width: 50px;
+            height: 50px;
+            margin: 10px;
+        }
+        .elem {
+            height: 40px;
+            width: 140px;
+            margin: 10px;
+            justify-content: center;
+            border: 1px solid ;
+            display: flex;
+            box-sizing: border-box;
+            padding: 10px;   
+            text-decoration: none;   
+            list-style: none;   
+        }
+        .elem-4 {
+            width: 40px;
+
+        }
+        .elem:hover {
+            background-color: rgba(61, 53, 53, 0.26);
+            transition: .6s;
+            border-radius: 10%;
+        }
+
+        .text {
+            font-family: Verdana, Tahoma, sans-serif;
+            font-size: 50px; 
+            display: flex;
+            box-sizing: border-box;
+            padding: 20px;
+            margin: auto;
+            width: 500px;
+            margin-left: 20%;
+        }
+        .line, .line-2 {
+            margin: auto;
+            border-bottom: 1px solid;
+            height: 70px;
+        }
+        .ug {
+            background-color: black;
+            box-sizing: border-box;
+            display: flex;
+            margin: auto;
+            margin-top: 70px;
+            padding: auto;
+        }
+        .hi {
+            width: 200px;
+            height: 200px;
+            text-align: center;
+            font-size: 16px;
+            margin:  auto;
+            flex-wrap: wrap;
+            color: white;
+            font-family: Tahoma;
+        }
+        .hi p {
+            padding: 15px;
+        }
+        .card {
+            display: flex;
+            text-align: center;
+            flex-direction: column;
+            width: 220px;
+            border: 1px solid;
+            margin: auto;
+            margin-top: 70px;
+        }
+        .title {
+            margin: 5px;
+        }
+        .img {
+            margin: 5px;
+        }
+        .number {
+            width: 50px;
+            margin:  5px auto;
+            text-align: center;
+        }
+        .zag {
+            text-align: center;
+            margin-top: 70px;
+        }
+        .menu {
+            display: flex;
+            justify-content: space-between;
+            margin: 70px auto;
+            flex-wrap: wrap;
+        }
+        .menu-inner {
+            text-align: center;
+            padding: 15px;
+            text-decoration: none;
+            color: black;
+            background-color: rgba(78, 78, 78, 0.397);
+
+            
+        }
+        .menu-inner p {
+            margin: 15px;
+        }
+        .menu-inner img {
+            width: 250px;
+            height: 170px;
+            background-size: cover;
+        }
+        .menu-inner:hover {
+            transition: .5s;
+            border-radius: 5%;
+
+        }
+
+    </style>
+</head>
+<body>
+    <div class="header">
+    <div class="cont">
+        <div class="me">
+        <div class="logo"></div>
+            <div class="elem elem-1"><a href="Главная страница.html">На главную</a></div>
+            <div class="elem elem-2"><a href="https://technolab24.ru/">Технолаб</a></div>   
+            <div class="elem elem-3">Услуги</div>
+            <div class="elem elem-4">i</div>
+        </div>
+            <div class="text">Доступные и качественные товары для ремонта</div>
+    </div>
+    <div class="line"></div>
+    <div class="zag"><h1>Категории</h1></div>
+
+
+    <div class="menu">
+        <div class="menu-inner i1"><a href="#"><p>Инструменты</p><img src="https://stroiidea.ru/assets/images/staty/instrumenty-dlya-remonta-kvartiry.jpg"></div>
+        </a>
+        <div class="menu-inner i2"><p>Материалы</p><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTnJX4QMVfDsGmp1sUWjzLahJGjOuFcBW7QA&usqp=CAU"></div>
+        <div class="menu-inner i3"><p>Отделочные материалы</p><<img src="https://static.glavsnab.net/media/catalog/category/napolnye-pokrytiya.jpg"></div>
+        <div class="menu-inner i4"><p>Мебель</p><img src="https://www.brw.ru/local/templates/main_brw/img/catalog/gostin.jpg"></img></div>
+    </div>
+
+    <div class="ug">
+        <div class="hi">
+            <p>Почта</p>
+            <p>Телефон</p>
+            <p>Сайт создан для конкурса технолаба</p>
+        </div>
+    </div>
+
+</body>
+</html>
